@@ -1,14 +1,36 @@
 package Repositories
 
 import (
-	G "Auth_System_In_Go/Globals"
 	M "Auth_System_In_Go/Models"
+	G "Auth_System_In_Go/Globals"
 	"database/sql"
+	"github.com/joho/godotenv"
 	"log"
+	"os"
 )
 
+type DB_ENV struct {
+	Host, Port, Dialect, Username, Password, DBname string
+}
+
+var (
+	dbEnv G.DB_ENV
+)
+
+func init() {
+	godotenv.Load()
+	G.DbEnv = G.DB_ENV{
+		Host:     os.Getenv("DB_HOST"),
+		Port:     os.Getenv("DB_PORT"),
+		Dialect:  os.Getenv("DB_DIALECT"),
+		Username: os.Getenv("DB_USERNAME"),
+		Password: os.Getenv("DB_PASSWORD"),
+		DBname:   os.Getenv("DB_NAME"),
+	}
+}
+
 func DBConnect() (*sql.DB, error) {
-	db, _ := sql.Open("mysql", "root:razu@tcp(127.0.0.1:3306)/"+G.DbName+"?parseTime=true")
+	db, _ := sql.Open(dbEnv.Dialect, dbEnv.Username+":"+dbEnv.Password+"@tcp("+dbEnv.Host+":"+dbEnv.Port+")/"+dbEnv.DBname+"?parseTime=true")
 	return db, nil
 }
 

@@ -31,7 +31,7 @@ func checkIfTableExists(tableName string) bool {
 	db, _ := DBConnect()
 	results, err := db.Query(`select TABLE_NAME from information_schema.tables 
 									where table_name=? and TABLE_TYPE='BASE TABLE' 
-									and TABLE_SCHEMA=?`, tableName, DbName)
+									and TABLE_SCHEMA=?`, tableName, dbEnv.DBname)
 	if err != nil {
 		log.Println("migration.go log2", err.Error())
 		return false

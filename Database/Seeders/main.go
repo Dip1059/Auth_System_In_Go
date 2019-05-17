@@ -4,13 +4,37 @@ import (
 	"database/sql"
 	"fmt"
 	_ "github.com/go-sql-driver/mysql"
+	"github.com/joho/godotenv"
+	"os"
 )
 
-var success, fail int
-const DbName string = "go_crud"
+
+type DB_ENV struct {
+	Host, Port, Dialect, Username, Password, DBname string
+}
+
+var (
+	success, fail int
+	dbEnv DB_ENV
+)
+
+
+func init() {
+	goPath := os.Getenv("GOPATH")
+	godotenv.Load(goPath+"/src/Auth_System_In_Go/.env")
+	dbEnv = DB_ENV{
+		Host:os.Getenv("DB_HOST"),
+		Port:os.Getenv("DB_PORT"),
+		Dialect:os.Getenv("DB_DIALECT"),
+		Username:os.Getenv("DB_USERNAME"),
+		Password:os.Getenv("DB_PASSWORD"),
+		DBname:os.Getenv("DB_NAME"),
+	}
+}
+
 
 func DBConnect() (*sql.DB, error) {
-	db, _ := sql.Open("mysql", "root:razu@tcp(127.0.0.1:3306)/"+DbName+"?parseTime=true")
+	db, _ := sql.Open(dbEnv.Dialect, dbEnv.Username+":"+dbEnv.Password+"@tcp("+dbEnv.Host+":"+dbEnv.Port+")/"+dbEnv.DBname+"?parseTime=true")
 	return db, nil
 }
 
