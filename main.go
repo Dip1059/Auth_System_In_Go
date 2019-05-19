@@ -10,7 +10,7 @@ import (
 func main() {
 	r := gin.Default()
 
-	r.LoadHTMLGlob("View/**/*.html")
+	r.LoadHTMLGlob("Views/**/*.html")
 	r.GET("/", Cont.Welcome)
 	r.GET("/register", Cont.RegisterGet)
 	r.POST("/register", Cont.RegisterPost)

@@ -6,15 +6,21 @@
       <change afterPath="$PROJECT_DIR$/../SMALL_TEST_PROJECTS/Custom_Package/.idea/misc.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../SMALL_TEST_PROJECTS/Custom_Package/.idea/modules.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../SMALL_TEST_PROJECTS/Custom_Package/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Database/Migrations/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/Database/Migrations/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Database/Migrations/migration.go" beforeDir="false" afterPath="$PROJECT_DIR$/Database/Migrations/migration.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Database/Seeders/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/Database/Seeders/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Database/Seeders/seeder.go" beforeDir="false" afterPath="$PROJECT_DIR$/Database/Seeders/seeder.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Globals/global.go" beforeDir="false" afterPath="$PROJECT_DIR$/Globals/global.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Repositories/AuthRepo.go" beforeDir="false" afterPath="$PROJECT_DIR$/Repositories/AuthRepo.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/EmailService.go" beforeDir="false" afterPath="$PROJECT_DIR$/Services/EmailService.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/AuthService.go" beforeDir="false" afterPath="$PROJECT_DIR$/Services/AuthService.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/View/Admin/dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Admin/dashboard.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/View/Email/email-verify.html" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Email/email-verify.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/View/Email/reset-password-email.html" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Email/reset-password-email.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/View/Errors/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Errors/404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/View/Guest/forgot-password.html" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Guest/forgot-password.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/View/Guest/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Guest/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/View/Guest/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Guest/register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/View/Guest/reset-password.html" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Guest/reset-password.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/View/Guest/welcome.html" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Guest/welcome.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/View/User/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/Views/User/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../SMALL_TEST_PROJECTS/Custom_Package/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/../SMALL_TEST_PROJECTS/Custom_Package/main.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -38,7 +44,7 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -110,7 +116,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/sasda.http" />
         <option value="$PROJECT_DIR$/sample.txt" />
         <option value="$PROJECT_DIR$/crypto.go" />
         <option value="$PROJECT_DIR$/View/login.html" />
@@ -161,6 +166,7 @@
         <option value="$PROJECT_DIR$/Globals/global.go" />
         <option value="$PROJECT_DIR$/Database/Migrations/main.go" />
         <option value="$PROJECT_DIR$/Database/Seeders/main.go" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/ceb50059-2257-49f3-b081-6df6675f8336/console.sql" />
       </list>
     </option>
   </component>
@@ -178,6 +184,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -189,7 +196,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -206,7 +212,7 @@
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Database/Seeders" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.goide.configuration.GoLibrariesConfigurableProvider" />
@@ -238,7 +244,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build Auth_System_In_Go/Database/Seeders">
+  <component name="RunManager" selected="Go Build.go build main.go">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="Auth_System_In_Go" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -267,34 +273,6 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go build PracticeGoland/Database/Migrations (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="Auth_System_In_Go" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <kind value="PACKAGE" />
-      <filePath value="$PROJECT_DIR$/" />
-      <package value="PracticeGoland/Database/Migrations" />
-      <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build PracticeGoland/Database/Migrations" type="GoApplicationRunConfiguration" factoryName="Go Application" nameIsGenerated="true">
-      <module name="Auth_System_In_Go" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <go_parameters value="-i" />
-      <kind value="DIRECTORY" />
-      <filePath value="$PROJECT_DIR$/" />
-      <package value="Practice-Goland" />
-      <directory value="F:\Go-Projects\src\PracticeGoland\Database\Migrations" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build PracticeGoland/Database/Seeders" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="Auth_System_In_Go" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <kind value="PACKAGE" />
-      <filePath value="$PROJECT_DIR$/" />
-      <package value="PracticeGoland/Database/Seeders" />
-      <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
     <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="Auth_System_In_Go" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -316,10 +294,7 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Go Build.go build PracticeGoland/Database/Migrations" />
       <item itemvalue="Go Build.go build main.go" />
-      <item itemvalue="Go Build.go build PracticeGoland/Database/Seeders" />
-      <item itemvalue="Go Build.go build PracticeGoland/Database/Migrations (1)" />
       <item itemvalue="Go Build.go build Auth_System_In_Go/Database/Migrations" />
       <item itemvalue="Go Build.go build Auth_System_In_Go/Database/Seeders" />
     </list>
@@ -328,8 +303,6 @@
         <item itemvalue="Go Build.go build Auth_System_In_Go/Database/Seeders" />
         <item itemvalue="Go Build.go build Auth_System_In_Go/Database/Migrations" />
         <item itemvalue="Go Build.go build main.go" />
-        <item itemvalue="Go Build.go build PracticeGoland/Database/Seeders" />
-        <item itemvalue="Go Build.go build PracticeGoland/Database/Migrations (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -341,11 +314,11 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="886" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17191978" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17621776" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32850242" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32802126" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4972592" weight="0.2934927" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997344" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -360,7 +333,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" weight="0.32889584" />
+      <window_info anchor="right" id="Database" order="3" weight="0.32879657" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -419,18 +392,7 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://C:/Go/src/net/smtp/smtp.go" />
-    <entry file="file://$PROJECT_DIR$/../gopkg.in/gomail.v2/message.go" />
-    <entry file="file://$PROJECT_DIR$/test2.go" />
-    <entry file="file://C:/Go/src/html/template/content.go" />
-    <entry file="file://$PROJECT_DIR$/View/User/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="50" lean-forward="true" selection-start-line="7" selection-start-column="50" selection-end-line="7" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/View/Admin/dashboard.html">
+    <entry file="file://$PROJECT_DIR$/Views/Admin/dashboard.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="58" />
@@ -439,7 +401,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../Web-App/prac.go" />
     <entry file="file://$PROJECT_DIR$/test.go" />
-    <entry file="file://$PROJECT_DIR$/View/Errors/404.html">
+    <entry file="file://$PROJECT_DIR$/Views/Errors/404.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="40" lean-forward="true" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="40" />
@@ -508,7 +470,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/View/Guest/register.html">
+    <entry file="file://$PROJECT_DIR$/Views/Guest/register.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="406">
           <caret line="33" column="50" selection-start-line="33" selection-start-column="50" selection-end-line="33" selection-end-column="50" />
@@ -522,28 +484,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/View/Email/email-verify.html">
+    <entry file="file://$PROJECT_DIR$/Views/Email/email-verify.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="332">
           <caret line="80" column="142" selection-start-line="80" selection-start-column="142" selection-end-line="80" selection-end-column="142" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/View/Email/reset-password-email.html">
+    <entry file="file://$PROJECT_DIR$/Views/Email/reset-password-email.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="298">
           <caret line="80" column="139" selection-start-line="80" selection-start-column="139" selection-end-line="80" selection-end-column="139" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/View/Guest/reset-password.html">
+    <entry file="file://$PROJECT_DIR$/Views/Guest/reset-password.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
           <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/View/Guest/forgot-password.html">
+    <entry file="file://$PROJECT_DIR$/Views/Guest/forgot-password.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
@@ -573,7 +535,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/View/Guest/login.html">
+    <entry file="file://$PROJECT_DIR$/Views/Guest/login.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="384">
           <caret line="29" column="92" lean-forward="true" selection-start-line="29" selection-start-column="92" selection-end-line="29" selection-end-column="92" />
@@ -632,13 +594,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Migration-Seeding_System_In_Go/.env.example">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../Migration-Seeding_System_In_Go/.env.example" />
     <entry file="file://$PROJECT_DIR$/Services/EmailService.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
@@ -686,12 +642,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Database/Seeders/.env">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Database/Migrations/.env">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Database/Seeders/.env" />
+    <entry file="file://$PROJECT_DIR$/Database/Migrations/.env" />
     <entry file="file://$PROJECT_DIR$/../github.com/joho/godotenv/godotenv.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-306">
@@ -725,6 +677,38 @@
           <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
         </state>
       </provider>
+    </entry>
+    <entry file="das://34fc9010-f9e0-4651-b2c6-8f0e38e52040/collation/ascii_bin" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/34fc9010-f9e0-4651-b2c6-8f0e38e52040/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/ceb50059-2257-49f3-b081-6df6675f8336/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="uml://DATABASE/ceb50059-2257-49f3-b081-6df6675f8336.SCHEMA:chatbox">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>DATABASE</ID>
+          <OriginalElement>ceb50059-2257-49f3-b081-6df6675f8336.SCHEMA:chatbox</OriginalElement>
+          <nodes>
+            <node x="" y="">ceb50059-2257-49f3-b081-6df6675f8336.TABLE:chatbox.customers</node>
+            <node x="" y="">ceb50059-2257-49f3-b081-6df6675f8336.TABLE:chatbox.migrations</node>
+            <node x="" y="">ceb50059-2257-49f3-b081-6df6675f8336.TABLE:chatbox.messages</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="172.0" y="172.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Key columns</Category>
+            <Category>Columns</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/ceb50059-2257-49f3-b081-6df6675f8336/console_1.sql">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
