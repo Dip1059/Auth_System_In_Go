@@ -10,7 +10,7 @@ type User struct {
 	Email string						`field_name:"email"`
 	Phone sql.NullString				`field_name:"phone"`
 	Password string						`field_name:"password"`
-	ActiveStauts int					`field_name:"activestatus"`
+	ActiveStatus int					`field_name:"activestatus"`
 	Role int							`field_name:"role_id"`
 	EmailVf sql.NullString				`field_name:"email_verification"`
 	RememberToken sql.NullString		`field_name:"remember_token"`

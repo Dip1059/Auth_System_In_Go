@@ -13,9 +13,6 @@ type DB_ENV struct {
 	Host, Port, Dialect, Username, Password, DBname string
 }
 
-var (
-	dbEnv G.DB_ENV
-)
 
 func init() {
 	godotenv.Load()
@@ -30,7 +27,7 @@ func init() {
 }
 
 func DBConnect() (*sql.DB, error) {
-	db, _ := sql.Open(dbEnv.Dialect, dbEnv.Username+":"+dbEnv.Password+"@tcp("+dbEnv.Host+":"+dbEnv.Port+")/"+dbEnv.DBname+"?parseTime=true")
+	db, _ := sql.Open(G.DbEnv.Dialect, G.DbEnv.Username+":"+G.DbEnv.Password+"@tcp("+G.DbEnv.Host+":"+G.DbEnv.Port+")/"+G.DbEnv.DBname+"?parseTime=true")
 	return db, nil
 }
 
@@ -40,7 +37,7 @@ func ReadWithEmail(user M.User) (M.User, bool) {
 	var err error
 	results, err = db.Query("SELECT * FROM users WHERE email=?;", user.Email)
 	if results.Next() {
-		err = results.Scan(&user.ID, &user.Name, &user.Email, &user.Phone, &user.Password, &user.ActiveStauts, &user.Role, &user.EmailVf, &user.RememberToken, &user.Deleted_At, &user.Created_At, &user.Updated_At)
+		err = results.Scan(&user.ID, &user.Name, &user.Email, &user.Phone, &user.Password, &user.ActiveStatus, &user.Role, &user.EmailVf, &user.RememberToken, &user.Deleted_At, &user.Created_At, &user.Updated_At)
 		if err != nil {
 			log.Println("AuthRepo.go Log1", err.Error())
 		}
