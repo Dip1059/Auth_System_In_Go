@@ -2,6 +2,7 @@ package Helpers
 
 import (
 	"bytes"
+	"database/sql"
 	"html/template"
 	mrand "math/rand"
 	"time"
